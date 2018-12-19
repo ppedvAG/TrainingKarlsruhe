@@ -15,14 +15,20 @@
 
         While True
             If i > 3000 Then
+                GoTo marke
                 Exit While
             End If
 
         End While
+        Exit Sub
 
+marke:
+        MessageBox.Show("sprungmarke ")
 
         'For i = 1 To 10
 
         'Next
     End Sub
+
+
 End Class

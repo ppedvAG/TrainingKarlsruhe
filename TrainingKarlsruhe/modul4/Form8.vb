@@ -21,7 +21,9 @@
             If quer > 99 Then
                 Exit For
             End If
+            Dim x = 0
         Next
+
         'For index = 0 To zahl.Length - 1
         '    zahl.Substring(index, 1)
 

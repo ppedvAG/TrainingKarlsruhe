@@ -5,8 +5,8 @@
         Dim o As Object
 
         i = 1
-        i = "a"
-        i = 1.2
+        'i = "a"
+        'i = 1.2
 
         o = i
 

@@ -16,6 +16,21 @@
             Case Else
                 MessageBox.Show("nur L R U O Taste")
         End Select
+
+        'Select Case e.KeyCode
+        '    Case Keys.Left
+        '        Label1.Left -= 1
+        '    Case Keys.Right
+        '        Label1.Left += 1
+
+        '    Case Keys.Down
+        '        Label1.Top += 1
+        '    Case Keys.Up
+        '        Label1.Top -= 1
+        '    Case Else
+        '        MessageBox.Show("nur L R U O Taste")
+        'End Select
+
     End Sub
 
 

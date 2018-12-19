@@ -7,7 +7,6 @@
         Dim a(5) As Integer
         For index = 0 To 5
             a(index) = (CInt(Rnd() * 49))
-
         Next
         ListBox1.DataSource = a
     End Sub

@@ -9,6 +9,9 @@
         'i = 1.2
 
         o = i
+        Dim f = 10.0R
+        Dim h = &HFF0000 'RGB  =rot
+        Dim WasserTemperatur = 23
 
 
 

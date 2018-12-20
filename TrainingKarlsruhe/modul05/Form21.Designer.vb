@@ -32,7 +32,7 @@ Partial Class Form21
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 25
-        Me.ListBox1.Location = New System.Drawing.Point(463, 33)
+        Me.ListBox1.Location = New System.Drawing.Point(402, 33)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(305, 329)
         Me.ListBox1.TabIndex = 0

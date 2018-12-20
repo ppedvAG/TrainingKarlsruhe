@@ -35,8 +35,8 @@ bist geboren am {tt.gebdatum:d}"
 
 
 
-    Private Function suchePerson(v As Integer) As Tuple
-        Dim tt = (id:=1, Name:="Hannes", ort:="Ach", gebdatum:=#08/09/1968#)
+    Private Function suchePerson(v As Integer) As (ID As Integer, name As String, ort As String, gebdatum As Date)
+        Return (1, "Hannes", "Ach", #08/09/1968#)
 
 
 

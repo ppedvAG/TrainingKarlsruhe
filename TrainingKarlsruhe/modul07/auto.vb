@@ -11,7 +11,7 @@
         End Get
         Set(ByVal value As String)
             _hersteller = value
-            If _hersteller = "BMX" Then
+            If _hersteller = "BMW" Then
                 Bildpfad = "bmw.png"
             Else
                 Bildpfad = "auto.jpg"

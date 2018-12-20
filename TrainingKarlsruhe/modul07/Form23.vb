@@ -3,18 +3,15 @@
         Dim meinAuto = New KFZ
         meinAuto.fahrgestellnummer = 1234
         meinAuto.farbe = Color.Aqua
-        meinAuto.hersteller = "BMW"
+        meinAuto.Hersteller = TextBox1.Text.ToUpper
         meinAuto.tuev = CheckBox1.Checked
-        meinAuto.Bildpfad = "c:\temp\bmw.png"
-
-
 
         Label1.Text = $"Fahrgestellnummer {meinAuto.fahrgestellnummer:D9}
 meine Farbe {meinAuto.farbe}
 kommt von {meinAuto.hersteller}
 und hat  {(If(meinAuto.tuev, "", "keinen"))} TÜV"
 
-        PictureBox1.ImageLocation = meinAuto.Bildpfad
+        PictureBox1.ImageLocation = "c:\temp\" + meinAuto.Bildpfad
 
     End Sub
 

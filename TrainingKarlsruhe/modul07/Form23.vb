@@ -6,6 +6,8 @@
         meinAuto.Hersteller = TextBox1.Text.ToUpper
         meinAuto.tuev = CheckBox1.Checked
 
+
+
         Label1.Text = $"Fahrgestellnummer {meinAuto.fahrgestellnummer:D9}
 meine Farbe {meinAuto.farbe}
 kommt von {meinAuto.hersteller}

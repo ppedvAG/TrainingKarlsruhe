@@ -171,6 +171,12 @@
     <Compile Include="modul05\Form17.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modul05\Form21.Designer.vb">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modul05\Form21.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modul06\Form18.Designer.vb">
       <DependentUpon>Form18.vb</DependentUpon>
     </Compile>
@@ -262,6 +268,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modul05\Form17.resx">
       <DependentUpon>Form17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modul05\Form21.resx">
+      <DependentUpon>Form21.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modul06\Form18.resx">
       <DependentUpon>Form18.vb</DependentUpon>

@@ -56,6 +56,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -174,6 +177,12 @@
     <Compile Include="modul06\Form18.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modul06\Form19.Designer.vb">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modul06\Form19.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modul4\Form14.Designer.vb">
       <DependentUpon>Form14.vb</DependentUpon>
     </Compile>
@@ -251,6 +260,9 @@
     <EmbeddedResource Include="modul06\Form18.resx">
       <DependentUpon>Form18.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="modul06\Form19.resx">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="modul4\Form14.resx">
       <DependentUpon>Form14.vb</DependentUpon>
     </EmbeddedResource>
@@ -275,6 +287,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="modul01\" />

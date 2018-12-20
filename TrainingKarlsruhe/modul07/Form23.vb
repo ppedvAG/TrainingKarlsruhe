@@ -5,10 +5,10 @@
         meinAuto.farbe = Color.Aqua
         meinAuto.hersteller = "BMW"
         meinAuto.tuev = CheckBox1.Checked
-        Label1.Text = $"Fahrgestellnummer {meinAuto.fahrgestellnummer}
+        Label1.Text = $"Fahrgestellnummer {meinAuto.fahrgestellnummer:D9}
 meine Farbe {meinAuto.farbe}
 kommt von {meinAuto.hersteller}
-und hat  {(If(meinAuto.tuev, "", "keinen"))} tüv"
+und hat  {(If(meinAuto.tuev, "", "keinen"))} TÜV"
     End Sub
 
 End Class

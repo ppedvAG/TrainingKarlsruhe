@@ -229,6 +229,12 @@
     <Compile Include="modul07\kfz2.vb" />
     <Compile Include="modul07\kfz3.vb" />
     <Compile Include="modul07\kifz4.vb" />
+    <Compile Include="modul10\Form28.Designer.vb">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modul10\Form28.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modul4\Form14.Designer.vb">
       <DependentUpon>Form14.vb</DependentUpon>
     </Compile>
@@ -336,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modul07\Form26.resx">
       <DependentUpon>Form26.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modul10\Form28.resx">
+      <DependentUpon>Form28.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modul4\Form14.resx">
       <DependentUpon>Form14.vb</DependentUpon>

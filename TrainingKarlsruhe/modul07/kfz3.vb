@@ -10,6 +10,7 @@
 
     End Sub
     Public Sub New(hersteller As String) 'Konstruktor Überladen
+        Me.Hersteller = hersteller
         Dim s = CInt(Rnd() * 1000).ToString("D7")
         Select Case hersteller
             Case "BMW"

@@ -72,7 +72,7 @@ Partial Class Form29
         Me.Panel1.BackColor = System.Drawing.Color.Red
         Me.Panel1.Location = New System.Drawing.Point(323, 246)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(272, 138)
+        Me.Panel1.Size = New System.Drawing.Size(359, 174)
         Me.Panel1.TabIndex = 4
         '
         'Form29

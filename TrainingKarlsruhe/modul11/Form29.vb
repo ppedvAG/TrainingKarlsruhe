@@ -8,7 +8,6 @@
         Timer1.Interval = 1000
         AddHandler Timer1.Tick, AddressOf Ticken
     End Sub
-
     Private Sub bewegung(sender As Object, e As MouseEventArgs)
         Label2.Text = e.Location.X.ToString + ":" + e.Location.Y.ToString
     End Sub

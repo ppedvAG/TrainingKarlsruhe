@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form28
+Partial Class Form29
     Inherits System.Windows.Forms.Form
 
     'Das Formular überschreibt den Löschvorgang, um die Komponentenliste zu bereinigen.
@@ -22,53 +22,80 @@ Partial Class Form28
     'Das Bearbeiten mit dem Code-Editor ist nicht möglich.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(27, 25)
+        Me.Button1.Location = New System.Drawing.Point(39, 13)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(201, 72)
+        Me.Button1.Size = New System.Drawing.Size(119, 53)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(39, 158)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(77, 25)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Label1"
+        '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(27, 147)
+        Me.Button2.Location = New System.Drawing.Point(318, 22)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(201, 73)
-        Me.Button2.TabIndex = 1
+        Me.Button2.Size = New System.Drawing.Size(117, 44)
+        Me.Button2.TabIndex = 2
         Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'Label2
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 25
-        Me.ListBox1.Location = New System.Drawing.Point(416, 25)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(330, 379)
-        Me.ListBox1.TabIndex = 2
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(318, 157)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(77, 25)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Label2"
         '
-        'Form28
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Red
+        Me.Panel1.Location = New System.Drawing.Point(323, 246)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(272, 138)
+        Me.Panel1.TabIndex = 4
+        '
+        'Form29
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form28"
-        Me.Text = "Form28"
+        Me.Name = "Form29"
+        Me.Text = "Form29"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Button1 As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
     Friend WithEvents Button2 As Button
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Panel1 As Panel
 End Class

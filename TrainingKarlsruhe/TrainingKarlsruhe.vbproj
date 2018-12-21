@@ -80,6 +80,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="einstieg.Designer.vb">
+      <DependentUpon>einstieg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="einstieg.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +241,12 @@
     <Compile Include="modul10\Form28.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modul11\Form29.Designer.vb">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modul11\Form29.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modul4\Form14.Designer.vb">
       <DependentUpon>Form14.vb</DependentUpon>
     </Compile>
@@ -271,6 +283,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="einstieg.resx">
+      <DependentUpon>einstieg.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -345,6 +360,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modul10\Form28.resx">
       <DependentUpon>Form28.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modul11\Form29.resx">
+      <DependentUpon>Form29.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modul4\Form14.resx">
       <DependentUpon>Form14.vb</DependentUpon>

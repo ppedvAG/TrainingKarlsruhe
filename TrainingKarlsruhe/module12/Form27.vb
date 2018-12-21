@@ -3,7 +3,7 @@
         '  On Error GoTo fehler
         Try
             Try
-                Dim o As Integer
+                Dim o As Integer = 0
                 o = Integer.MaxValue
                 o = o + 1
             Catch
@@ -12,20 +12,21 @@
 
 
             Dim a(5) As String
-                For index = 1 To 10
-                    a(index) = Rnd.ToString
-                Next
+            For index = 1 To 10
+                a(index) = Rnd.ToString
+            Next
 
-            Catch ex As OverflowException
-                ' MessageBox.Show("dramatic Error" + ex.HResult.ToString)
+        Catch ex As OverflowException
+            ' MessageBox.Show("dramatic Error" + ex.HResult.ToString)
 
-            Catch ex As Exception
-                MessageBox.Show("Hinweis: Programm hat intern folgenden fehler, dwen wir natürlich behoben haben" + ex.Message)
+        Catch ex As Exception
+            MessageBox.Show("Hinweis: Programm hat intern folgenden fehler, dwen wir natürlich behoben haben" + ex.Message)
 
 
         End Try
 
         Dim x = 0
+
 
 
 
